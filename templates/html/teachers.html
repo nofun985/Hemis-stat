@@ -1,0 +1,413 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container-fluid px-3">
+                    <div class="row">
+                        <div class="col-lg-12 card-margin">
+                            <div class="card search-form">
+                                <div class="card-body p-0">
+                                    <form id="search-form">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="row no-gutters">
+
+                                                    <div class="col-6 p-0">
+                                                        <input type="text" placeholder="Izlash. . ." class="form-control" id="search" name="search">
+                                                    </div>
+                                                    <div class="col-6 p-0  d-flex justify-content-end">
+                                                        <button type="submit" class="btn btn-base">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-12">
+                                <div class="card card-margin">
+                                    <div class="card-body">
+                                        <div class="row search-body">
+                                            <div class="col-lg-12">
+                                                <div class="search-result">
+                                                    <div class="result-header m-0">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-lg-6 col-sm-12">
+                                                                <div class="records">Natijalar: <b>200</b> dan <b>1-20</b></div>
+                                                                <div class="result-actions">
+                                                                    <div class="result-sorting">
+                                                                        <span>Saralsh:</span>
+                                                                        <select class="form-control border-0" id="exampleOption">
+                                                                            <option value="1">Hammasi</option>
+                                                                            <option value="2">O'qituvchi</option>
+                                                                            <option value="3">Stajor</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="result-body">
+                                                        <div class="table-responsive">
+                                                            <table class="table widget-26">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="widget-26-number">
+                                                                            <div class="widget-26-div">
+                                                                                1
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-emp-img">
+                                                                                <img src="https://hemis.tersu.uz/static/crop/3/7/120_120_90_3711650415.jpg" alt="Company" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-title">
+                                                                                <a href="teacherInfo.html">BOYSARIYEVA S. B.</a>
+                                                                                <p class="m-0"><a href="#" class="employer-name"></a> <span class="text-muted time">O‘rindoshlik (ichki-qo'shimcha)</span></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-info">
+                                                                                <p class="text-muted m-0">Boshlang’ich ta’lim kafedrasi</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-salary">0,50 stavka</div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-category bg-soft-base">
+                                                                                <i class="indicator bg-success"></i>
+                                                                                <span>Assistent</span>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="widget-26-number">
+                                                                            <div class="widget-26-div">
+                                                                                2
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-emp-img">
+                                                                                <img src="https://hemis.tersu.uz/static/crop/2/2/120_120_90_2261263012.jpg" alt="Company" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-title">
+                                                                                <a href="teacherInfo.html">PARDAYEV A. S.</a>
+                                                                                <p class="m-0"><span class="text-muted time">O‘rindoshlik (ichki-qo'shimcha)</span></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-info">
+                                                                                <p class="type m-0">Kafedra</p>
+                                                                                <p class="text-muted m-0">Botanika kafedrasi</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-salary">0,25 stavka</div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-category bg-soft-warning">
+                                                                                <i class="indicator bg-warning"></i>
+                                                                                <span>Stajer-o‘qituvchi</span>
+                                                                            </div>
+                                                                        </td>
+
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="widget-26-number">
+                                                                            <div class="widget-26-div">
+                                                                                3
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-emp-img">
+                                                                                <img src="https://hemis.tersu.uz/static/crop/2/4/120_120_90_2433576000.jpg" alt="Company" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-title">
+                                                                                <a href="teacherInfo.html">BEKMURODOV A. S.</a>
+                                                                                <p class="m-0"> <span class="text-muted time">O‘rindoshlik (ichki-qo'shimcha)</span></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-info">
+
+                                                                                <p class="text-muted m-0">Zoologiya kafedrasi</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-salary">0,50 stavka</div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-category bg-soft-success">
+                                                                                <i class="indicator bg-success"></i>
+                                                                                <span>Dotsent</span>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="widget-26-number">
+                                                                            <div class="widget-26-div">
+                                                                                4
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-emp-img">
+                                                                                <img src="https://hemis.tersu.uz/static/crop/3/3/120_120_90_3354465450.jpg" alt="Company" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-title">
+                                                                                <a href="teacherInfo.html">SULTONOV X. G‘</a>
+                                                                                <p class="m-0"> <span class="text-muted time">O‘rindoshlik (ichki-qo'shimcha)</span></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-info">                                                                                <p class="text-muted m-0">Iqtisodiyot kafedrasi</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-salary">0,50 stavka</div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-category bg-soft-danger">
+                                                                                <i class="indicator bg-danger"></i>
+                                                                                <span>Assistent</span>
+                                                                            </div>
+                                                                        </td>
+
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="widget-26-number">
+                                                                            <div class="widget-26-div">
+                                                                                5
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-emp-img">
+                                                                                <img src="https://hemis.tersu.uz/static/crop/2/6/120_120_90_2625475343.jpg" alt="Company" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-title">
+                                                                                <a href="teacherInfo.html">ESANKULOV U. A.</a>
+                                                                                <p class="m-0"> <span class="text-muted time">O‘rindoshlik (ichki-qo'shimcha)</span></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-info">
+                                                                                <p class="text-muted m-0">Biznes boshqaruvi va statistika kafedrasi</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-salary">0,50 stavka</div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-category bg-soft-info">
+                                                                                <i class="indicator bg-info"></i>
+                                                                                <span>Stajer-o‘qituvchi</span>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="widget-26-number">
+                                                                            <div class="widget-26-div">
+                                                                                6
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-emp-img">
+                                                                                <img src="https://hemis.tersu.uz/static/crop/1/7/120_120_90_1728555430.jpg" alt="Company" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-title">
+                                                                                <a href="#">OCHILDIYEV SH. SH.</a>
+                                                                                <p class="m-0"><span class="text-muted time">Asosiy ish joy</span></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-info">
+                                                                                <p class="text-muted m-0">Noorganik kimyo kafedrasi</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-salary">1,00 stavka</div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-category bg-soft-base">
+                                                                                <i class="indicator bg-success"></i>
+                                                                                <span>Assistent</span>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="widget-26-number">
+                                                                            <div class="widget-26-div">
+                                                                                7
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-emp-img">
+                                                                                <img src="https://hemis.tersu.uz/static/crop/3/0/120_120_90_3062917403.jpg" alt="Company" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-title">
+                                                                                <a href="#">TO‘LAYEVA K. U.</a>
+                                                                                <p class="m-0"><span class="text-muted time">O‘rindoshlik (ichki-qo'shimcha)</span></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-info">
+                                                                                <p class="text-muted m-0">Fakultetlararo chet tillar kafedrasi</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-salary">0,50 stavka</div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-category bg-soft-warning">
+                                                                                <i class="indicator bg-warning"></i>
+                                                                                <span>Stajer-o‘qituvchi</span>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="widget-26-number">
+                                                                            <div class="widget-26-div">
+                                                                                8
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-emp-img">
+                                                                                <img src="https://hemis.tersu.uz/static/crop/2/2/120_120_90_2267945190.jpg" alt="Company" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-title">
+                                                                                <a href="#">NARMURATOV Z. R.</a>
+                                                                                <p class="m-0"><span class="text-muted time">Asosiy ish joy</span></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-info">
+                                                                                <p class="text-muted m-0">Ingliz tili va adabiyoti kafedrasi</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-salary">1,00 stavka</div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-category bg-soft-success">
+                                                                                <i class="indicator bg-success"></i>
+                                                                                <span>Kafedra mudiri</span>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="widget-26-number">
+                                                                            <div class="widget-26-div">
+                                                                                9
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-emp-img">
+                                                                                <img src="https://hemis.tersu.uz/static/crop/4/1/120_120_90_4155990479.jpg" alt="Company" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-title">
+                                                                                <a href="#">ERGASHOV I. A.</a>
+                                                                                <p class="m-0"><span class="text-muted time">O‘rindoshlik (ichki-qo'shimcha)</span></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-info">
+                                                                                <p class="text-muted m-0">O’zbekiston tarixi va manbashunoslik kafedrasi</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-salary">0,50 stavka</div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-category bg-soft-danger">
+                                                                                <i class="indicator bg-danger"></i>
+                                                                                <span>Stajer-o‘qituvchi</span>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="widget-26-number">
+                                                                            <div class="widget-26-div">
+                                                                                10
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-emp-img">
+                                                                                <img src="https://hemis.tersu.uz/static/crop/5/7/120_120_90_572962601.jpg" alt="Company" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-title">
+                                                                                <a href="#">AXMEDOVA N. I.</a>
+                                                                                <p class="m-0"><span class="text-muted time">O‘rindoshlik (tashqi)</span></p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-info">
+                                                                                <p class="text-muted m-0">Fakultetlararo chet tillar kafedrasi</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-salary">0,25 stavka</div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="widget-26-job-category bg-soft-info">
+                                                                                <i class="indicator bg-info"></i>
+                                                                                <span>Stajer-o‘qituvchi</span>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <nav class="d-flex justify-content-center">
+                                            <ul class="pagination pagination-base pagination-boxed pagination-square mb-0">
+                                                <li class="page-item">
+                                                    <a class="page-link no-border" href="#">
+                                                        <span aria-hidden="true">«</span>
+                                                        <span class="sr-only">Previous</span>
+                                                    </a>
+                                                </li>
+                                                <li class="page-item active"><a class="page-link no-border" href="#">1</a></li>
+                                                <li class="page-item"><a class="page-link no-border" href="#">2</a></li>
+                                                <li class="page-item"><a class="page-link no-border" href="#">3</a></li>
+                                                <li class="page-item"><a class="page-link no-border" href="#">4</a></li>
+                                                <li class="page-item">
+                                                    <a class="page-link no-border" href="#">
+                                                        <span aria-hidden="true">»</span>
+                                                        <span class="sr-only">Next</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+             </div>
+{% endblock %}
