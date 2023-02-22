@@ -4,13 +4,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-select{
+.select-class select{
     border:2px solid #e3e3e3;
     border-radius: 12px;
     outline: none;
 }
 
-select:focus{
+.select-class select:focus{
     border-color: #e3e3e3;
 }
 

@@ -5,5 +5,8 @@ urlpatterns = [
     path('', index, name='index'),
     path('teacher/', teacher, name='teacher'),
     path('teacher/add/', teacher_add, name='teacher_add'),
-    path('teacher/info/', teacher_info, name='teacher_info')
+    path('teacher/info/<str:uuid>/', teacher_info, name='teacher_info'),
+    path('data/', teacher_data, name='teacher_data'),
+    path('merge/', merge_teachers, name='merge'),
+    path('search/ ', get_teacher, name='search')
 ]
