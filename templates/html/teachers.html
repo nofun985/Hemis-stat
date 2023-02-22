@@ -5,62 +5,37 @@
 {% block content %}
 
 <div class="container-fluid px-3">
-                    <div class="row">
-                        <div class="col-lg-12 card-margin">
-                            <div class="card search-form">
-                                <div class="card-body p-0">
-                                    <form id="search-form">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <div class="row no-gutters">
-
-                                                    <div class="col-6 p-0">
-                                                        <div id="autocomplete" class="autocomplete">
-                                                          <input class="autocomplete-input form-control" />
-                                                          <ul class="autocomplete-result-list"></ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6 p-0  d-flex justify-content-end">
-                                                        <button type="submit" class="btn btn-base">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                                                        </button>
-                                                    </div>
-                                                    <script>
-                                                        new Autocomplete('#autocomplete', {
-                                                            search : input => {
-                                                                console.log(input)
-                                                                const url = `/get-full_names/?search=${input}`
-                                                                return new Promise(resolve => {
-                                                                    fetch(url).then(response=>response.json()).then(data =>{
-                                                                        console.log(data.payload)
-                                                                        resolve(data.payload)
-                                                                    })
-                                                                })
-                                                            },
-                                                            renderResult : (result , props) => {
-                                                                console.log(props)
-                                                                let group = ''
-                                                                if(result.index % 3 == 0){
-                                                                    group = `<li class="group">Group</li>`
-                                                                }
-                                                                return
-                                                                `${group}
-                                                                <li ${props}>
-                                                                    <div class="wiki-title">
-                                                                        ${result.full_name}
-                                                                    </div>
-                                                                </li>`
-                                                            }
-                                                        })
-                                                    </script>
-                                                </div>
-                                            </div>
+                    <div class="row no-gutters">
+                        <div class="col-12">
+                            <form method="get">
+                                <div class="row d-flex justify-content-center m-5">
+                                    <div class="col-10">
+                                        <div id="autocomplete" class="autocomplete">
+                                            {% render_field my_filter.form.teacher_full_name class="autocomplete-input" style="background-color: #fff;" %}
+                                            <ul class="autocomplete-result-list"></ul>
                                         </div>
-                                    </form>
+                                    </div>
+                                    <div class="col-2 py-1">
+                                        <button class="btn btn-success py-2" type="submit" style="display: inline-block; height: 100%; width: 100%"><i class="fa-solid fa-magnifying-glass"></i> Qidirish</button>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
+                            </form>
+                        <script>
+                            new Autocomplete('#autocomplete', {
+                                search : input =>{
+                                    console.log(input)
+                                    const url =  `/get-teacher/?search=${input}`
+                                    return new Promise(resolve => {
+                                        fetch(url)
+                                            .then(response => response.json())
+                                            .then(data => {
+                                                console.log(data)
+                                                resolve(data.data)
+                                            })
+                                    })
+                                }
+                            })
+                        </script>
                     <div class="row">
                             <div class="col-12">
                                 <div class="card card-margin">
@@ -82,7 +57,7 @@
                                                                                 {% render_field my_filter.form.employmentForm class="filter-form" %}
                                                                                 {% render_field my_filter.form.department class="filter-form" %}
                                                                                 {% render_field my_filter.form.staffPosition class="filter-form" %}
-                                                                                <button type="submit">Qidirish</button>
+                                                                                <button type="submit"><i class="fa-solid fa-filter"></i> Qidirish</button>
                                                                             </div>
                                                                         </form>
                                                                     </div>

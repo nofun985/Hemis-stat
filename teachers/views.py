@@ -17,9 +17,9 @@ def index(request):
 def teacher(request):
     all_teachers = Teachers.objects.all()
 
-    count = all_teachers.count()
     my_filter = ProductFilter(request.GET, queryset=all_teachers, )
     all_teachers = my_filter.qs
+    count = all_teachers.count()
 
     items_per_page = 20
     paginator = Paginator(all_teachers, items_per_page)
@@ -59,7 +59,7 @@ def teacher(request):
         "start_index": start_index,
         "end_index": end_index,
         "items_with_index": items_with_index,
-        "my_filter": my_filter
+        "my_filter": my_filter,
     }
 
     return render(request, 'html/teachers.html', context)
@@ -69,19 +69,18 @@ def get_teacher(request):
     search = request.GET.get('search')
     payload = []
     if search:
-        teacher_names = Teachers.objects.filter(full_name__startswith=search)
+        teacher_names = Teachers.objects.filter(full_name__icontains=search)
         for t_name in teacher_names:
-            payload.append({
-                'full_name': t_name.full_name
-            })
+            payload.append(t_name.full_name)
 
     return JsonResponse({
         'status': True,
-        'full_name': payload,
+        'data': payload,
     })
 
+
 def teacher_info(request, uuid):
-    teacher_info = Teachers.objects.get(uuid=uuid)
+    teacher_info: Teachers = Teachers.objects.get(uuid=uuid)
     context = {
         "teacher_data": teacher_info
     }
