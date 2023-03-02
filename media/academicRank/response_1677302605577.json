@@ -1,0 +1,2035 @@
+{
+  "success": true,
+  "error": null,
+  "data": {
+    "items": [
+      {
+        "id": 29294,
+        "full_name": "YANGIBOYEVA SHAXNOZA ULUG‘OVNA",
+        "short_name": "YANGIBOYEVA SH. U.",
+        "first_name": "SHAXNOZA",
+        "second_name": "YANGIBOYEVA",
+        "third_name": "ULUG‘OVNA",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 610156800,
+        "student_id_number": "340201108378",
+        "image": "https://hemis.tersu.uz/static/crop/1/5/120_120_90_1501558559.jpg",
+        "avg_gpa": 3.9,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722214",
+          "name": "Qumqo‘rg‘on tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1636443653,
+        "updated_at": 1677301919,
+        "hash": "595e8a9c018503b2da36d018631a3a1660d98b62e3ddb74631ededabe5a68a82"
+      },
+      {
+        "id": 27893,
+        "full_name": "XOLMATOVA GULJAXON SHERNAZAROVNA",
+        "short_name": "XOLMATOVA G. SH.",
+        "first_name": "GULJAXON",
+        "second_name": "XOLMATOVA",
+        "third_name": "SHERNAZAROVNA",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 489283200,
+        "student_id_number": "340201108077",
+        "image": "https://hemis.tersu.uz/static/crop/3/1/120_120_90_3137355982.jpg",
+        "avg_gpa": 3.5,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722204",
+          "name": "Boysun tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1633765726,
+        "updated_at": 1677301919,
+        "hash": "51ca36960babd0bb8e842dbae1ba12688bf40b277fa4deb0a882ee4c202e13ea"
+      },
+      {
+        "id": 29481,
+        "full_name": "XAITOVA MAYSARA SHAYDULLAYEVNA",
+        "short_name": "XAITOVA M. SH.",
+        "first_name": "MAYSARA",
+        "second_name": "XAITOVA",
+        "third_name": "SHAYDULLAYEVNA",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 490320000,
+        "student_id_number": "340201108419",
+        "image": "https://hemis.tersu.uz/static/crop/2/6/120_120_90_2655070942.jpg",
+        "avg_gpa": 3.6,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722210",
+          "name": "Denov tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "13",
+          "name": "Superkontrakt"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1636795089,
+        "updated_at": 1677301919,
+        "hash": "dc364e1f37c0f555d8c8c9955dadcbed3623bfe319cbb9705d727a1d6c1576dc"
+      },
+      {
+        "id": 27937,
+        "full_name": "URALOVA SAYYORA YULDASHEVNA",
+        "short_name": "URALOVA S. Y.",
+        "first_name": "SAYYORA",
+        "second_name": "URALOVA",
+        "third_name": "YULDASHEVNA",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 343872000,
+        "student_id_number": "340201108086",
+        "image": "https://hemis.tersu.uz/static/crop/1/2/120_120_90_1247681074.jpg",
+        "avg_gpa": 3.9,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722202",
+          "name": "Angor tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1633941986,
+        "updated_at": 1677301919,
+        "hash": "bcd1a3100a150655d746da8c0b13ef571d51203e9f49ed0d2cb2d8f3d1ad21cb"
+      },
+      {
+        "id": 27878,
+        "full_name": "TURSUNBOBOYEVA MUXARRAM SODIQ QIZI",
+        "short_name": "TURSUNBOBOYEVA M. S.",
+        "first_name": "MUXARRAM",
+        "second_name": "TURSUNBOBOYEVA",
+        "third_name": "SODIQ QIZI",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 1018137600,
+        "student_id_number": "340201108063",
+        "image": "https://hemis.tersu.uz/static/crop/2/0/120_120_90_2039919489.jpg",
+        "avg_gpa": 4,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722217",
+          "name": "Sariosiyo tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1633761537,
+        "updated_at": 1677301919,
+        "hash": "0bd378e569d15571dca4efa0744285085f373cbb72badb3ef40649ebe10641cb"
+      },
+      {
+        "id": 29482,
+        "full_name": "TURDIYEVA ZULOYXO MAMATALIYEVNA",
+        "short_name": "TURDIYEVA Z. M.",
+        "first_name": "ZULOYXO",
+        "second_name": "TURDIYEVA",
+        "third_name": "MAMATALIYEVNA",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 698025600,
+        "student_id_number": "340201108420",
+        "image": "https://hemis.tersu.uz/static/crop/5/1/120_120_90_515127214.jpg",
+        "avg_gpa": 3.5,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722210",
+          "name": "Denov tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1636795306,
+        "updated_at": 1677301919,
+        "hash": "a6291cfe63249756f9b4b41831fd88eb69f56d1b64f4f8d79a8e7088e50321d0"
+      },
+      {
+        "id": 29555,
+        "full_name": "TURDIYEVA XURSHIDA NORQOBIL QIZI",
+        "short_name": "TURDIYEVA X. N.",
+        "first_name": "XURSHIDA",
+        "second_name": "TURDIYEVA",
+        "third_name": "NORQOBIL QIZI",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 919728000,
+        "student_id_number": "340201108427",
+        "image": "https://hemis.tersu.uz/static/crop/4/1/120_120_90_4124053246.jpg",
+        "avg_gpa": 4,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722204",
+          "name": "Boysun tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1636966408,
+        "updated_at": 1677301919,
+        "hash": "bf91401e0ce860d34ad52284944eadc8bfbc1ecd5748f6ec8d5fd3593c651cb1"
+      },
+      {
+        "id": 29125,
+        "full_name": "TAJIYEVA FARIDA BAXTIYOR QIZI",
+        "short_name": "TAJIYEVA F. B.",
+        "first_name": "FARIDA",
+        "second_name": "TAJIYEVA",
+        "third_name": "BAXTIYOR QIZI",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 950486400,
+        "student_id_number": "340201108330",
+        "image": "https://hemis.tersu.uz/static/crop/3/9/120_120_90_3966255858.jpg",
+        "avg_gpa": 3.8,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722214",
+          "name": "Qumqo‘rg‘on tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1636006962,
+        "updated_at": 1677301919,
+        "hash": "517fd84931a053559ae41c3e5f62cb06955d15aec628418d3e47d6a1e18f790b"
+      },
+      {
+        "id": 27887,
+        "full_name": "SAMADOVA SITORA SHUXRAT QIZI",
+        "short_name": "SAMADOVA S. SH.",
+        "first_name": "SITORA",
+        "second_name": "SAMADOVA",
+        "third_name": "SHUXRAT QIZI",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 1009756800,
+        "student_id_number": "340201108072",
+        "image": "https://hemis.tersu.uz/static/crop/3/8/120_120_90_3852882544.jpg",
+        "avg_gpa": 4.2,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722221",
+          "name": "Uzun tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1633763495,
+        "updated_at": 1677301919,
+        "hash": "2ba83e34a711850c72bf3175b9c239fcf9d9fe7d420e3f988d46d28da2591dda"
+      },
+      {
+        "id": 27886,
+        "full_name": "SAFAROVA LAYLO TOXIR QIZI",
+        "short_name": "SAFAROVA L. T.",
+        "first_name": "LAYLO",
+        "second_name": "SAFAROVA",
+        "third_name": "TOXIR QIZI",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 1007251200,
+        "student_id_number": "340201108071",
+        "image": "https://hemis.tersu.uz/static/crop/1/9/120_120_90_1975700234.jpg",
+        "avg_gpa": 3.9,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722223",
+          "name": "Sherobod tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1633763339,
+        "updated_at": 1677301919,
+        "hash": "fb93eda788c47c61e218c7cceb9bfe95a9dafeff589bdc3f050c6fb26e7586b8"
+      },
+      {
+        "id": 27869,
+        "full_name": "ROXMONOVA SAYRAM BEKZOD QIZI",
+        "short_name": "ROXMONOVA S. B.",
+        "first_name": "SAYRAM",
+        "second_name": "ROXMONOVA",
+        "third_name": "BEKZOD QIZI",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 1013212800,
+        "student_id_number": "340201108056",
+        "image": "https://hemis.tersu.uz/static/crop/2/9/120_120_90_2919595886.jpg",
+        "avg_gpa": 3.6,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722201",
+          "name": "Oltinsoy tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1633755177,
+        "updated_at": 1677301919,
+        "hash": "74d5342d68ed6c97277ae7583d14651225346ddb8a67c05dc3c70100b5cfc905"
+      },
+      {
+        "id": 1837,
+        "full_name": "QURBONOVA LOBAR ZIYODULLA QIZI",
+        "short_name": "QURBONOVA L. Z.",
+        "first_name": "LOBAR",
+        "second_name": "QURBONOVA",
+        "third_name": "ZIYODULLA QIZI",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 979603200,
+        "student_id_number": "340201101840",
+        "image": "https://hemis.tersu.uz/static/crop/2/6/120_120_90_2690296259.jpg",
+        "avg_gpa": 3.5,
+        "total_credit": 96,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722212",
+          "name": "Jarqo‘rg‘on tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "14",
+          "name": "Ijaradagi uyda"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1602761616,
+        "updated_at": 1677298636,
+        "hash": "56389a82ec64724b4576c1ad1d7a34ff6693a40c46fea9a58f5bf9f6af6cb58b"
+      },
+      {
+        "id": 28201,
+        "full_name": "QOSIMOVA MAVLUDA ISMOIL QIZI",
+        "short_name": "QOSIMOVA M. I.",
+        "first_name": "MAVLUDA",
+        "second_name": "QOSIMOVA",
+        "third_name": "ISMOIL QIZI",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 901929600,
+        "student_id_number": "340201108155",
+        "image": "https://hemis.tersu.uz/static/crop/1/4/120_120_90_1408472440.jpg",
+        "avg_gpa": 3.1,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722210",
+          "name": "Denov tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1634277868,
+        "updated_at": 1677301919,
+        "hash": "71399e85bc5cecfededf86d07ee41c1e7b1a32679901480e6df4463f19ccdf79"
+      },
+      {
+        "id": 29468,
+        "full_name": "QAHHOROV OTABEK ZIYAQUL O‘G‘LI",
+        "short_name": "QAHHOROV O. Z.",
+        "first_name": "OTABEK",
+        "second_name": "QAHHOROV",
+        "third_name": "ZIYAQUL O‘G‘LI",
+        "gender": {
+          "code": "11",
+          "name": "Erkak"
+        },
+        "birth_date": 862012800,
+        "student_id_number": "352201105009",
+        "image": "https://hemis.tersu.uz/static/crop/3/7/120_120_90_3779579681.jpg",
+        "avg_gpa": 3.7,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722215",
+          "name": "Qiziriq tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1636778271,
+        "updated_at": 1677301919,
+        "hash": "851ead84e19f20eaa19cc69038e4b1d791bbed4e0facc6c017bb0b44bd3fd5c4"
+      },
+      {
+        "id": 31121,
+        "full_name": "O‘ROQOVA GULINUR SHAVKATJON QIZI",
+        "short_name": "O‘ROQOVA G. SH.",
+        "first_name": "GULINUR",
+        "second_name": "O‘ROQOVA",
+        "third_name": "SHAVKATJON QIZI",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 1052611200,
+        "student_id_number": "341201102188",
+        "image": "https://hemis.tersu.uz/static/crop/3/4/120_120_90_3486114547.jpg",
+        "avg_gpa": 3.2,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722217",
+          "name": "Sariosiyo tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1639824693,
+        "updated_at": 1677301919,
+        "hash": "5cd046ab2fd61c24429a2b3fcca3e94efaff82d8053210045d606640dc6c3511"
+      },
+      {
+        "id": 28902,
+        "full_name": "NORQULOV SHOHRUHXON TOSHPO‘LAT O‘G‘LI",
+        "short_name": "NORQULOV SH. T.",
+        "first_name": "SHOHRUHXON",
+        "second_name": "NORQULOV",
+        "third_name": "TOSHPO‘LAT O‘G‘LI",
+        "gender": {
+          "code": "11",
+          "name": "Erkak"
+        },
+        "birth_date": 998352000,
+        "student_id_number": "340201108312",
+        "image": "https://hemis.tersu.uz/static/crop/2/4/120_120_90_2496789754.jpg",
+        "avg_gpa": 3.6,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722212",
+          "name": "Jarqo‘rg‘on tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "13",
+          "name": "Superkontrakt"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1635746494,
+        "updated_at": 1677301919,
+        "hash": "9be1ed8dc67ca8983f028b72deb5ab35f4b08881f8a0e4ef8ee73bbcb8989474"
+      },
+      {
+        "id": 27881,
+        "full_name": "NIYOZOVA UMSUNOY ISMATILLO QIZI",
+        "short_name": "NIYOZOVA U. I.",
+        "first_name": "UMSUNOY",
+        "second_name": "NIYOZOVA",
+        "third_name": "ISMATILLO QIZI",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 636768000,
+        "student_id_number": "340201108066",
+        "image": "https://hemis.tersu.uz/static/crop/6/1/120_120_90_614227253.jpg",
+        "avg_gpa": 3.3,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722217",
+          "name": "Sariosiyo tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1633762283,
+        "updated_at": 1677301919,
+        "hash": "012d227ad8c839ba2ac45ea36a1705f65bdddfd1fb2a72d881643b7880d08777"
+      },
+      {
+        "id": 27198,
+        "full_name": "NAZAROVA SEVARAXON FAXRIDDINOVNA",
+        "short_name": "NAZAROVA S. F.",
+        "first_name": "SEVARAXON",
+        "second_name": "NAZAROVA",
+        "third_name": "FAXRIDDINOVNA",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 906163200,
+        "student_id_number": "340201107866",
+        "image": "https://hemis.tersu.uz/static/crop/2/4/120_120_90_2419170891.jpg",
+        "avg_gpa": 3.7,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722210",
+          "name": "Denov tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1632911082,
+        "updated_at": 1677301919,
+        "hash": "84399669d4424c523b9174df1602c6027a3623b75ec7ce532f664c78ebb3ce11"
+      },
+      {
+        "id": 29747,
+        "full_name": "MUXAMMADIYEVA MATLUBA JAMOLIDDINOVNA",
+        "short_name": "MUXAMMADIYEVA M. J.",
+        "first_name": "MATLUBA",
+        "second_name": "MUXAMMADIYEVA",
+        "third_name": "JAMOLIDDINOVNA",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 554774400,
+        "student_id_number": "340201108439",
+        "image": "https://hemis.tersu.uz/static/crop/7/5/120_120_90_75493556.jpg",
+        "avg_gpa": 3.5,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722221",
+          "name": "Uzun tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1637148431,
+        "updated_at": 1677301919,
+        "hash": "c92b857ebdfb0733aa1e7788b7fb66e39ea8bcf74049c2c2c3a59293cbcb33e7"
+      },
+      {
+        "id": 31074,
+        "full_name": "MAMUROVA MAHINA NIYOZAXMADOVNA",
+        "short_name": "MAMUROVA M. N.",
+        "first_name": "MAHINA",
+        "second_name": "MAMUROVA",
+        "third_name": "NIYOZAXMADOVNA",
+        "gender": {
+          "code": "12",
+          "name": "Ayol"
+        },
+        "birth_date": 925344000,
+        "student_id_number": "340201108693",
+        "image": "https://hemis.tersu.uz/static/crop/1/8/120_120_90_1845529785.jpg",
+        "avg_gpa": 2.8,
+        "total_credit": 127,
+        "country": {
+          "code": "UZ",
+          "name": "O‘zbekiston"
+        },
+        "province": {
+          "code": "1722",
+          "name": "Surxondaryo viloyati",
+          "_parent": "1722"
+        },
+        "district": {
+          "code": "1722217",
+          "name": "Sariosiyo tumani",
+          "_parent": "1722"
+        },
+        "studentStatus": {
+          "code": "11",
+          "name": "O‘qimoqda"
+        },
+        "educationForm": {
+          "code": "13",
+          "name": "Sirtqi"
+        },
+        "educationType": {
+          "code": "11",
+          "name": "Bakalavr"
+        },
+        "paymentForm": {
+          "code": "12",
+          "name": "To‘lov-shartnoma"
+        },
+        "studentType": {
+          "code": "11",
+          "name": "Oddiy"
+        },
+        "socialCategory": {
+          "code": "10",
+          "name": "Boshqa"
+        },
+        "accommodation": {
+          "code": "11",
+          "name": "O‘z uyida"
+        },
+        "department": {
+          "id": 9,
+          "name": "O‘zbek filologiyasi fakulteti",
+          "code": "340-108",
+          "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+          },
+          "parent": null
+        },
+        "specialty": {
+          "id": 120,
+          "code": "5120101",
+          "name": "Filologiya va tillarni o’qitish (o’zbek tili)"
+        },
+        "group": {
+          "id": 1333,
+          "name": "FTO'-131S-2020"
+        },
+        "level": {
+          "code": "13",
+          "name": "3-kurs"
+        },
+        "semester": {
+          "id": 731,
+          "code": "16",
+          "name": "6-semestr",
+          "current": false,
+          "education_year": {
+            "code": "2022",
+            "name": "2022-2023",
+            "current": true
+          }
+        },
+        "educationYear": {
+          "code": "2022",
+          "name": "2022-2023",
+          "current": true
+        },
+        "created_at": 1639563996,
+        "updated_at": 1677301919,
+        "hash": "3e031290cca55126fb3a82922970ee65c237dac12dcccf548fcac25eb23b54cf"
+      }
+    ],
+    "pagination": {
+      "totalCount": 26463,
+      "pageSize": 20,
+      "pageCount": 1324,
+      "page": 1
+    }
+  },
+  "code": 200
+}

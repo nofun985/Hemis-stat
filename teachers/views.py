@@ -1,9 +1,12 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect, get_object_or_404
 from django.http.response import HttpResponse
 from django.http import JsonResponse
 from teachers.filter import ProductFilter
 from teachers.utils import *
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.core.files.storage import FileSystemStorage
+
+from .forms import AcademicRankDataForm
 from .models import Teachers
 
 
@@ -79,8 +82,8 @@ def get_teacher(request):
     })
 
 
-def teacher_info(request, uuid):
-    teacher_info: Teachers = Teachers.objects.get(uuid=uuid)
+def teacher_info(request, id):
+    teacher_info: Teachers = Teachers.objects.get(id=id)
     context = {
         "teacher_data": teacher_info
     }
@@ -88,8 +91,67 @@ def teacher_info(request, uuid):
     return render(request, 'html/teacherInfo.html', context)
 
 
-def teacher_add(request):
-    return render(request, 'html/teacherAdd.html')
+# def teacher_add(request, uuid):
+#     teacher_add_info = get_object_or_404(Teachers, uuid=uuid)
+#     academic_rank_data = teacher_add_info.academicrankdata.first()
+#     # academic_rank_data_list = list(academic_rank_data)
+#
+#     if request.method == 'POST':
+#         form = AcademicRankDataForm(request.POST, request.FILES, instance=academic_rank_data)
+#         if form.is_valid():
+#             form.save()
+#             # Redirect to the teacher detail page after updating the academic rank data.
+#             return redirect('teacher_info', uuid=uuid)
+#     else:
+#         form = AcademicRankDataForm(instance=academic_rank_data)
+#
+#     context = {
+#         'form': form,
+#         'teacher_add_info': teacher_add_info,
+#         # 'academic_rank_data_list': academic_rank_data_list
+#     }
+#     return render(request, 'html/teacherAdd.html', context)
+
+def teacher_add(request, id):
+    teacher_add = Teachers.objects.get(id=id)
+
+    if request.method == 'POST':
+        place_of_defense = request.POST.get('place_of_defense')
+        council_number = request.POST.get('council_number')
+        given_by_whom = request.POST.get('given_by_whom')
+        date_of_defense = request.POST.get('date_of_defense')
+        number_of_degree = request.POST.get('number_of_degree')
+        confirmed_date = request.POST.get('confirmed_date')
+        account_number = request.POST.get('account_number')
+        created = request.POST.get('created')
+        changed = request.POST.get('changed')
+        academic_rank_file = request.FILES.get('academic_rank_file')
+
+        # Save the uploaded file to a temporary location
+        fs = FileSystemStorage()
+        filename = fs.save(academic_rank_file.name, academic_rank_file)
+        file_path = fs.path(filename)
+
+        academic_rank_data = AcademicRankData.objects.create(
+            place_of_defense=place_of_defense,
+            council_number=council_number,
+            given_by_whom=given_by_whom,
+            date_of_defense=date_of_defense,
+            number_of_degree=number_of_degree,
+            confirmed_date=confirmed_date,
+            account_number=account_number,
+            created=created,
+            changed=changed,
+            academic_rank_file=file_path,
+        )
+
+        academic_rank_data.academic_rank_data_name.set([teacher_add])
+        return redirect('teacher_info', id=id)
+
+    context = {
+        'teacher_add': teacher_add,
+    }
+    return render(request, 'html/teacherAdd.html', context)
 
 
 def teacher_data(request):
@@ -100,6 +162,3 @@ def teacher_data(request):
     return HttpResponse("Data written to database")
 
 
-def merge_teachers(request):
-    Merge()
-    return HttpResponse("Data merge")
